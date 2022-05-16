@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-*
-{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
 }
-body
-{
+
+body {
   background: lightcyan;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
-.container
-{
+
+.container {
   position: relative;
   width: 100%;
   max-width: 1000px;
@@ -26,20 +25,20 @@ body
   grid-template-columns: 1fr 2fr;
   box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
-.container .left_Side
-{
+
+.container .left-side {
   position: relative;
   background: #003147;
   padding: 40px;
 }
-.container .right_Side
-{
+
+.container .right-side {
   position: relative;
   background: #fff;
   padding: 40px;
 }
-.profileText
-{
+
+.profile-text {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -47,16 +46,16 @@ body
   padding-bottom: 20px;
   border-bottom:  1px solid rgba(255,255,255,0.2);
 }
-.profileText .imgBx
-{
+
+.profile-text .imgBx {
   position: relative;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
 }
-.profileText .imgBx img
-{
+
+.profile-text .imgBx img {
   position: absolute;
   top: 0;
   left: 0;
@@ -64,8 +63,8 @@ body
   height: 100%;
   object-fit: cover;
 }
-.profileText h2
-{
+
+.profile-text h2 {
   color: #fff;
   font-size: 1.5em;
   margin-top: 20px;
@@ -74,72 +73,78 @@ body
   font-weight: 600;
   line-height: 1.4em;
 }
-.profileText h2 span
-{
+
+.profile-text h2 span {
   font-size: 0.8em;
   font-weight: 300em;
 }
-.contactInfo
-{
+
+.contact-info {
   padding-top: 40px;
 }
-.title
-{
+
+.title {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
-.contactInfo ul
-{
+
+.contact-info ul {
   position: relative;
 }
 
-.contactInfo ul li
-{
+.contact-info ul li {
   position: relative;
   list-style: none;
   margin: 10px 0;
   cursor: pointer;
 }
 
-.contactInfo ul li .icon
-{
+.contact-info ul li .icon {
   display: inline-block;
   width: 30px;
   font-size: 18px;
   color: #03a9f3;
 }
 
-.contactInfo ul li div
-{
+a[href^="tel:+79995498429"] {
+  color: #03a9f3;
+}
+
+a[href^="mailto:antdinyakov@gmail.com"] {
+  color: #03a9f3;
+}
+
+a[href^="tg://resolve?domain=@antony_santo"] {
+  color: #03a9f3;
+}
+
+.contact-info ul li div {
   color: #fff;
   font-weight: 300;
 }
 
-.contactInfo.education li
-{
+.contact-info.education li {
   margin-bottom: 15px;
 }
 
-.contactInfo.education h5
-{
+.contact-info.education h5 {
   color: #03a9f3;
   font-weight: 500;
 }
-.contactInfo.education h4:nth-child(2)
-{
+
+.contact-info.education h4:nth-child(2) {
   color: #fff;
   font-weight: 500;
 }
-.contactInfo.education h4
-{
+
+.contact-info.education h4 {
   color: #fff;
   font-weight: 300;
 }
-.contactInfo.language .percent
-{
+.contact-info.language .percent {
   position: relative;
   width: 100%;
   height: 6px;
@@ -147,96 +152,94 @@ body
   display: block;
   margin-top: 5px;
 }
-.contactInfo.language .percent div
-{
+
+.contact-info.language .percent div {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   background: #03a9f3;
 }
-.container .right_Side
-{
+
+.container .right-side {
   position: relative;
   background: #fff;
   padding: 40px;
 }
 
-.title1
-{
+.title1 {
   color: #003147;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
-.personal .box
-{
+
+.personal .box {
   display: flex;
   flex-direction: row;
   margin: 20px 0;
 }
-.personal .box .text
-{
+
+.personal .box .text {
   min-width: 150px;
   text-transform: uppercase;
   color: #5e6262;
   font-weight: 600;
 }
-.personal .box li
-{
+
+.personal .box li {
   list-style-type: none;
 }
-.about
-{
+
+.about {
   margin-bottom: 50px;
 }
-.about:last-child
-{
+
+.about:last-child {
   margin-bottom: 0;
 }
-.title2
-{
+
+.title2 {
   color: #003147;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
-p
-{
+
+p {
   color: #333
 }
-.about .box
-{
+
+.about .box {
   display: flex;
   flex-direction: row;
   margin: 20px 0;
 }
-.about .box .yearCompany
-{
+
+.about .box .yearCompany {
   min-width: 150px;
 }
-.about .box .yearCompany h5
-{
+
+.about .box .yearCompany h5 {
   text-transform: uppercase;
-  color: #848c90;
+  color: #4c5052;
   font-weight: 600;
 }
 
-.about .box .text h4
-{
+.about .box .text h4 {
   text-transform: uppercase;
   color: #2a7da2;
   font-size: 16px;
   padding-right: 10mm;
 }
-.about .box .text p
-{
+
+.about .box .text p {
   font-size: 16px;
   padding-right: 15mm;
   margin: 10px 0;
 }
-.skills .box
-{
+
+.skills .box {
   position: relative;
   width: 100%;
   display: grid;
@@ -244,23 +247,23 @@ p
   justify-content: center;
   align-items: center;
 }
-.skills .box h4
-{
+
+.skills .box h4 {
   text-transform: uppercase;
   color: #848c90;
   font-weight: 600;
 }
-.skills .box .percent
-{
+
+.skills .box .percent {
   position: relative;
   width: 120%;
-  height: 20px;
+  height: 10px;
   background: #f0f0f0;
   display: block;
   margin-top: 5px;
 }
-.skills .box .percent div
-{
+
+.skills .box .percent div {
   position: absolute;
   top: 0;
   left: 0;
@@ -268,66 +271,46 @@ p
   background: #03a9f3;
 }
 
-@media (max-width: 1000px)
-{
-  .container
-  {
+@media (max-width: 1100px) {
+  .skills .box {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .skills .box .percent {
+  width: 190%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
     margin: 10px;
     grid-template-columns: repeat(1,1fr);
   }
 }
 
-@media (max-width: 600px)
-{
-  .about .box
-  {
+@media  screen and (min-width: 400px) and (max-width: 600px) {
+  .about .box {
     flex-direction: column;
   }
 
-  .about .box .yearCompany
-  {
-    min-width: 150px;
-    margin-bottom: 5px;
+  .skills .box {
+    grid-template-columns: repeat(1,1fr);
   }
-  .skills .box
-  {
-    grid-template-columns: repeat(2,1fr);
-  }
-  .skills .box .percent
-  {
-  position: relative;
-  width: 190%;
-  height: 20px;
-  background: #f0f0f0;
-  display: block;
-  margin-top: 5px;
+
+  .skills .box .percent {
+  width: 90%;
   }
 }
 
-@media (max-width: 1100px)
-{
-  .about .box
-  {
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .about .box {
     flex-direction: column;
   }
 
-  .about .box .yearCompany
-  {
-    min-width: 150px;
-    margin-bottom: 5px;
+  .skills .box {
+    grid-template-columns: repeat(1,1fr);
   }
-  .skills .box
-  {
-    grid-template-columns: repeat(2,1fr);
-  }
-  .skills .box .percent
-  {
-  position: relative;
-  width: 190%;
-  height: 20px;
-  background: #f0f0f0;
-  display: block;
-  margin-top: 5px;
+  .skills .box .percent {
+  width: 70%;
   }
 }
-
