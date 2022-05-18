@@ -47,7 +47,7 @@ body {
   border-bottom:  1px solid rgba(255,255,255,0.2);
 }
 
-.profile-text .imgBx {
+.profile-text .img-bx {
   position: relative;
   width: 200px;
   height: 200px;
@@ -55,7 +55,7 @@ body {
   overflow: hidden;
 }
 
-.profile-text .imgBx img {
+.profile-text .img-bx img {
   position: absolute;
   top: 0;
   left: 0;
@@ -153,12 +153,22 @@ a[href^="tg://resolve?domain=@antony_santo"] {
   margin-top: 5px;
 }
 
-.contact-info.language .percent div {
+.contact-info.language .percent .eng-percent{
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   background: #03a9f3;
+  width: 25%;
+}
+
+.contact-info.language .percent .deu-percent{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f3;
+  width: 35%;
 }
 
 .container .right-side {
@@ -263,8 +273,45 @@ p {
   margin-top: 5px;
 }
 
-.skills .box .percent div {
+.skills .box .percent .ruby-percent {
   position: absolute;
+  width: 35%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f3;
+}
+
+.skills .box .percent .rails-percent {
+  position: absolute;
+  width: 5%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f3;
+}
+
+.skills .box .percent .git-percent {
+  position: absolute;
+  width: 40%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f3;
+}
+
+.skills .box .percent .html-percent {
+  position: absolute;
+  width: 35%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f3;
+}
+
+.skills .box .percent .css-percent {
+  position: absolute;
+  width: 35%;
   top: 0;
   left: 0;
   height: 100%;
