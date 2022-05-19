@@ -109,17 +109,14 @@ body {
 }
 
 a[href^="tel:+79995498429"] {
-  cursor: pointer;
   color: #03a9f3;
 }
 
 a[href^="mailto:antdinyakov@gmail.com"] {
-  cursor: pointer;
   color: #03a9f3;
 }
 
 a[href^="tg://resolve?domain=@antony_santo"] {
-  cursor: pointer;
   color: #03a9f3;
 }
 
